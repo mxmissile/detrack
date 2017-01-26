@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Detrack
 {
@@ -9,5 +10,7 @@ namespace Detrack
         public string Do { get; set; }
 
         public string Status { get; set; }
+
+        public IEnumerable<DeliveryResultError> Errors { get; set; }
     }
 }

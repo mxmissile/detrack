@@ -21,5 +21,19 @@ namespace Detrack
         public string Do { get; set; }
 
         public IList<DeliveryItem> Items { get; set; }
+
+        public string AssignTo { get; set; }
+
+        public string AddrCompany { get; set; }
+
+        public string InvoiceNo { get; set; }
+
+        public string Customer { get; set; }
+
+        public string OrderNo { get; set; }
+
+        public string SalesPerson { get; set; }
+
+        public string Instructions { get; set; }
     }
 }
