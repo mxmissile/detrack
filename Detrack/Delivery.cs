@@ -35,5 +35,7 @@ namespace Detrack
         public string SalesPerson { get; set; }
 
         public string Instructions { get; set; }
+
+        public string NotifyUrl { get; set; }
     }
 }

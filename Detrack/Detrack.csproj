@@ -51,11 +51,10 @@
   <ItemGroup>
     <Compile Include="Delivery.cs" />
     <Compile Include="DeliveryInfo.cs" />
-    <Compile Include="DeliveryInfoError.cs" />
+    <Compile Include="DeliveryResultError.cs" />
     <Compile Include="DeliveryItem.cs" />
     <Compile Include="DeliveryResponse.cs" />
     <Compile Include="DeliveryResult.cs" />
-    <Compile Include="DeliveryResultError.cs" />
     <Compile Include="DetrackClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
